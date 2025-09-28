@@ -2,8 +2,7 @@ cpuburn
 =======
 
 > [!WARNING]
-> This program is designed to heavily load CPU chips. Undercooled, overclocked or otherwise weak systems may fail causing data loss (filesystem corruption) and possibly permanent damage to electronic components.  Nor will it catch all flaws.   *** USE AT YOUR OWN RISK ***
->
+> This program is designed to heavily load CPU chips. Undercooled, overclocked or otherwise weak systems may fail causing data loss and/or possibly permanent damage to electronic components. ***USE AT YOUR OWN RISK***
 
 - [cpuburn](#cpuburn)
 - [Architectures](#architectures)
