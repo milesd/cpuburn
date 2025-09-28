@@ -38,8 +38,13 @@ A collection of cpuburn programs tuned for different ARM hardware.
 
 Copyright © 2012 Siarhei Siamashka (siarhei.siamashka@gmail.com)
 
-cpuburn-a53 is for the ARM Cortex-A53 processor.
-cpuburn-a7  is for the ARM Cortex-A7 processor.
-cpuburn-a8  is for the ARM Cortex-A8 processor.
-cpuburn-a9  is for the ARM Cortex-A9 processor. Needs NEON, so does not work on Tegra 2.
-cpuburn-krait is for the Qualcomm Krait 300/400 processor.
+cpuburn-a53
+:   is for the ARM Cortex-A53 processor.
+cpuburn-a7 
+:   is for the ARM Cortex-A7 processor.
+cpuburn-a8 
+:   is for the ARM Cortex-A8 processor.
+cpuburn-a9 
+:   is for the ARM Cortex-A9 processor. Needs NEON, so does not work on Tegra 2.
+cpuburn-krait
+:   is for the Qualcomm Krait 300/400 processor.
