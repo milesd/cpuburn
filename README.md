@@ -24,12 +24,14 @@ system, motherboard (especially voltage regulators) and power supply
 
 Robert Redelmeier (redelm@ev1.net)
 
-burnP5   is optimized for Intel Pentium w&w/o MMX processors
-burnP6   is for Intel PentiumPro, PentiumII&III and Celeron CPUs
-burnK6   is for AMD K6 processors
-burnK7   is for AMD Athlon/Duron processors
-burnMMX  is to test cache/memory interfaces on all CPUs with MMX
-burnBX   is an alternate cache/memory test for Intel CPUs
+ program | target CPU        
+---------|------------------------------------------------------------
+burnP5   | is optimized for Intel Pentium w&w/o MMX processors
+burnP6   | is for Intel PentiumPro, PentiumII&III and Celeron CPUs
+burnK6   | is for AMD K6 processors
+burnK7   | is for AMD Athlon/Duron processors
+burnMMX  | is to test cache/memory interfaces on all CPUs with MMX
+burnBX   | is an alternate cache/memory test for Intel CPUs
 
 
 ## ARM
@@ -38,13 +40,10 @@ A collection of cpuburn programs tuned for different ARM hardware.
 
 Copyright © 2012 Siarhei Siamashka (siarhei.siamashka@gmail.com)
 
-cpuburn-a53
-:   is for the ARM Cortex-A53 processor.
-cpuburn-a7 
-:   is for the ARM Cortex-A7 processor.
-cpuburn-a8 
-:   is for the ARM Cortex-A8 processor.
-cpuburn-a9 
-:   is for the ARM Cortex-A9 processor. Needs NEON, so does not work on Tegra 2.
-cpuburn-krait
-:   is for the Qualcomm Krait 300/400 processor.
+ program        | target CPU        
+----------------|------------------------------------------------------------
+cpuburn-a53     | is for the ARM Cortex-A53 processor.
+cpuburn-a7      | is for the ARM Cortex-A7 processor.
+cpuburn-a8      | is for the ARM Cortex-A8 processor.
+cpuburn-a9      | is for the ARM Cortex-A9. Needs NEON, so does not work on Tegra 2.
+cpuburn-krait   | is for the Qualcomm Krait 300/400 processor.
