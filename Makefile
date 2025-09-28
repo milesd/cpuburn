@@ -13,3 +13,6 @@ cpuburn-a9: cpuburn-a9.o
 
 cpuburn.1: README.md
 	@go-md2man < README.md > $@
+
+clean:
+	rm -f *.o cpuburn-a9 cpuburn.1 burnP5 burnP6 burnK6 burnK7 burnBX burnMMX
